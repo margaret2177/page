@@ -1,0 +1,223 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  background-color: #aacfcf;
+  color: grey;
+}
+.navcontainer{
+  width: 80%;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+
+}
+
+.navigationbar{
+  position: relative;
+  z-index: 2;
+  height: 5rem;
+  /* background-color: grey;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  opacity: 50%; */
+
+}
+.navigationbar img{
+  position: absolute;
+  width: 4rem;
+  top: 10px;
+  left: 50px;
+}
+.rightnav{
+  position: absolute;
+  top: 20px  ;
+  right: 50px;
+  font-size: 1.5rem;
+}
+.rightnav a{
+  text-decoration: none;
+  color: #679b9b;
+  margin: 15px;
+  font-family: 'Architects Daughter', cursive;
+
+}
+.top-container{
+  text-align: center;
+  margin: 0;
+  background-color: #aacfcf;
+padding: 0;
+  /* position: relative; */
+
+
+}
+.name{
+  /* display: inline-block; */
+  margin: auto;
+  /* left: 35rem;
+  top: 10rem; */
+  text-align: center;
+  z-index: 1;
+}
+.name h1{
+  font-family: 'Montez', cursive;
+  font-size: 5rem;
+  color: #00a8cc;
+  margin: 50px;
+}
+.name h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  color: #10375c;
+  font-size: 1.5rem;
+}
+p{
+  line-height: 25px;
+  font-size: 1.2rem;
+}
+.c{
+  width: 10rem;
+}
+.c1{
+  position: absolute;
+  left: 12rem;
+  top: 12rem;
+}
+.c2{
+  position: absolute;
+  right:14rem;
+  top: 20rem;
+  z-index: 2
+
+}
+.m{
+  position: relative;
+  bottom: -4px;
+}
+
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  margin: 50px;
+  color: #679b9b;
+  font-size: 2rem;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+}
+
+hr{
+  border-style: none;
+  border-top: 10px dotted grey;
+  width: 5%;
+  margin: 20px auto;
+
+}
+/* ..........................middle container................ */
+.middle-container{
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+  margin: auto;
+}
+
+.profile img{
+  width: 8rem;
+  margin-top: 50px;
+}
+
+.bio{
+  width: 30%;
+  margin: 30px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.skill-row .img1{
+  width: 7rem;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row .img2{
+  width: 7rem;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row h3{
+  margin-top: 10px;
+}
+.desc{
+  width: 30%;
+  margin: 100px auto;
+}
+
+
+.classname {
+  margin-bottom: 100px;
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #aacfcf), color-stop(1, #679b9b) );
+	background:-moz-linear-gradient( center top, #aacfcf 5%, #679b9b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#aacfcf', endColorstr='#679b9b');
+	background-color:#aacfcf;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:grey;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #3d768a;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #679b9b), color-stop(1, #aacfcf) );
+	background:-moz-linear-gradient( center top, #679b9b 5%, #aacfcf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#679b9b', endColorstr='#aacfcf');
+	background-color:#679b9b;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* ................bottom container....................... */
+.bottom-container{
+  text-align: center;
+  background-color: #aacfcf;
+
+}
+.bottom-container a{
+  text-decoration: none;
+  color: #679b9b;
+  padding: 20px;
+}
+.footers{
+  margin: 50px;
+}
