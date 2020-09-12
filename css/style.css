@@ -95,6 +95,7 @@ p{
 .m{
   position: relative;
   bottom: -4px;
+  mix-width: 500px;
 }
 
 }
